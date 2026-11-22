@@ -38,6 +38,7 @@ header img {
 .contenedor_buscador input {
     width: 85%;
     border: none;
+    outline: none;
     background-color: white;
     color: #7B2C08;
     text-align: center;
@@ -52,4 +53,20 @@ header img {
     border: none;
     background-color: #F8BD3D;
     color: #7B2C08;
+}
+
+.contenedor_buscador button span {
+    color: #7B2C08;
+}
+nav {
+    background-color: #F8BD3D;
+    color: #7B2C08;
+    display: flex;
+    /* Repartimos los enlaces por la barra */
+    justify-content: space-around;
+    padding: 8px;
+}
+nav a {
+    color: #7B2C08;
+    text-decoration: none;
 }
