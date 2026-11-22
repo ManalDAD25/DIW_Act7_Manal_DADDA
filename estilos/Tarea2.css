@@ -5,6 +5,7 @@ margin: 0;
 header {
 background-color:hsl(120, 82%, 18%);
 color: white;
+background-image: url("imagenes/fondo_cabecera_plusenergy.png"); 
 display: flex;
 /* Distribuye los ítems dejando (el mismo) espacio a ambos lados de cada uno de ellos. */
 justify-content: space-around;
