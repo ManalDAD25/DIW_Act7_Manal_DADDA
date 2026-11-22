@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 320px;
+    margin: 60px auto;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     cursor: pointer;
+}
+.item:active {
+    visibility: hidden;
+}
