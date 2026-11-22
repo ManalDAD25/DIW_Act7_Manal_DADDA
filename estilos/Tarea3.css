@@ -6,3 +6,50 @@
 body {
     font-family: 'Berkshire Swash', cursive;
 }
+
+header {
+    background-color: #7B2C08;
+    color: #F8BD3D;
+    /* Colocamos los elementos en horizontal */
+    display: flex;
+    /* Repartimos los elementos por la cabecera */
+    justify-content: space-around;
+    /* Centramos los elementos verticalmente */
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    width: 65px;
+    height: 65px;
+    /*muestra la imagen completa sin deformarla*/
+    object-fit: contain;
+}
+/* la barra de búsqueda */
+.contenedor_buscador {
+    display: flex;
+    background-color: white;
+    width: 290px;
+    height: 35px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contenedor_buscador input {
+    width: 85%;
+    border: none;
+    background-color: white;
+    color: #7B2C08;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Berkshire Swash', cursive;
+}
+.contenedor_buscador input:focus {
+    background-color: #F8BD3D;
+}
+.contenedor_buscador button {
+    width: 20%;
+    border: none;
+    background-color: #F8BD3D;
+    color: #7B2C08;
+}
