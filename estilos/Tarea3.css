@@ -70,3 +70,13 @@ nav a {
     color: #7B2C08;
     text-decoration: none;
 }
+nav a:hover {
+    text-decoration: underline;
+}
+
+main h2 {
+    background-color: #7B2C08;
+    color: #F8BD3D;
+    text-align: center;
+    padding: 10px;
+}
